@@ -72,3 +72,15 @@ export PATH="$HOME/.local/bin:$PATH"
 if [[ -o interactive ]]; then
   asciimtn-play ~/Downloads/fish.asciimtn 1
 fi
+
+# opencode
+export PATH=/home/gui/.opencode/bin:$PATH
+
+function opencode() {
+  # Usa porta 4097 no terminal (ULauncher usa 4096)
+  if [[ "$1" == "serve" ]] && [[ "$*" != *"--port"* ]]; then
+    command opencode serve --port 4097 "${@:2}"
+  else
+    command opencode "$@"
+  fi
+}
