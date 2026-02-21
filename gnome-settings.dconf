@@ -1,0 +1,575 @@
+[Characters]
+recent-characters=['✉️', '📍', '📁']
+
+[Extensions]
+window-height=439
+window-maximized=false
+window-width=548
+
+[baobab/ui]
+is-maximized=false
+window-size=(960, 600)
+
+[calculator]
+accuracy=9
+angle-units='degrees'
+base=10
+button-mode='basic'
+number-format='automatic'
+show-thousands=false
+show-zeroes=false
+source-currency=''
+source-units='degree'
+target-currency=''
+target-units='radian'
+window-maximized=false
+window-size=(370, 493)
+word-size=64
+
+[clocks/state/window]
+maximized=true
+panel-id='world'
+size=(870, 690)
+
+[control-center]
+last-panel='notifications'
+window-state=(1139, 655, false)
+
+[desktop/app-folders]
+folder-children=['Utilities', 'YaST', 'Pardus']
+
+[desktop/app-folders/folders/Pardus]
+categories=['X-Pardus-Apps']
+name='X-Pardus-Apps.directory'
+translate=true
+
+[desktop/app-folders/folders/Utilities]
+apps=['gnome-abrt.desktop', 'gnome-system-log.desktop', 'nm-connection-editor.desktop', 'org.gnome.baobab.desktop', 'org.gnome.Connections.desktop', 'org.gnome.DejaDup.desktop', 'org.gnome.Dictionary.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.Evince.desktop', 'org.gnome.FileRoller.desktop', 'org.gnome.fonts.desktop', 'org.gnome.Loupe.desktop', 'org.gnome.seahorse.Application.desktop', 'org.gnome.tweaks.desktop', 'org.gnome.Usage.desktop', 'vinagre.desktop']
+categories=['X-GNOME-Utilities']
+name='X-GNOME-Utilities.directory'
+translate=true
+
+[desktop/app-folders/folders/YaST]
+categories=['X-SuSE-YaST']
+name='suse-yast.directory'
+translate=true
+
+[desktop/background]
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri='file:///home/gui/.config/background'
+picture-uri-dark='file:///home/gui/.config/background'
+primary-color='#000000000000'
+secondary-color='#000000000000'
+
+[desktop/input-sources]
+sources=[('xkb', 'br')]
+xkb-options=@as []
+
+[desktop/interface]
+color-scheme='prefer-dark'
+cursor-theme='DMZ-Black'
+document-font-name='SF Pro Display 11'
+enable-animations=true
+font-name='SF Pro Display 11'
+gtk-theme='Orchis-Grey-Dark'
+icon-theme='Papirus-Dark'
+monospace-font-name='JetBrains Mono 13'
+
+[desktop/notifications]
+application-children=['org-gnome-seahorse-application', 'org-gnome-nautilus', 'ulauncher', 'apport-gtk', 'org-gnome-software', 'com-spotify-client', 'snapd-desktop-integration-snapd-desktop-integration', 'org-gnome-terminal', 'org-gnome-shell-extensions', 'org-gnome-eog', 'code', 'gnome-power-panel', 'com-github-flxzt-rnote', 'org-gnome-extensions', 'google-chrome', 'update-manager', 'dbeaver-ce', 'com-stremio-stremio', 'org-gnome-systemmonitor', 'alacritty', 'org-gnome-clocks', 'org-gnome-texteditor']
+show-banners=true
+
+[desktop/notifications/application/alacritty]
+application-id='Alacritty.desktop'
+enable=false
+
+[desktop/notifications/application/apport-gtk]
+application-id='apport-gtk.desktop'
+
+[desktop/notifications/application/code]
+application-id='code.desktop'
+
+[desktop/notifications/application/com-github-flxzt-rnote]
+application-id='com.github.flxzt.rnote.desktop'
+
+[desktop/notifications/application/com-spotify-client]
+application-id='com.spotify.Client.desktop'
+
+[desktop/notifications/application/com-stremio-stremio]
+application-id='com.stremio.Stremio.desktop'
+
+[desktop/notifications/application/dbeaver-ce]
+application-id='dbeaver-ce.desktop'
+
+[desktop/notifications/application/gnome-power-panel]
+application-id='gnome-power-panel.desktop'
+
+[desktop/notifications/application/google-chrome]
+application-id='google-chrome.desktop'
+
+[desktop/notifications/application/org-gnome-clocks]
+application-id='org.gnome.clocks.desktop'
+
+[desktop/notifications/application/org-gnome-eog]
+application-id='org.gnome.eog.desktop'
+
+[desktop/notifications/application/org-gnome-extensions]
+application-id='org.gnome.Extensions.desktop'
+
+[desktop/notifications/application/org-gnome-nautilus]
+application-id='org.gnome.Nautilus.desktop'
+
+[desktop/notifications/application/org-gnome-seahorse-application]
+application-id='org.gnome.seahorse.Application.desktop'
+
+[desktop/notifications/application/org-gnome-shell-extensions]
+application-id='org.gnome.Shell.Extensions.desktop'
+
+[desktop/notifications/application/org-gnome-software]
+application-id='org.gnome.Software.desktop'
+
+[desktop/notifications/application/org-gnome-systemmonitor]
+application-id='org.gnome.SystemMonitor.desktop'
+
+[desktop/notifications/application/org-gnome-terminal]
+application-id='org.gnome.Terminal.desktop'
+
+[desktop/notifications/application/org-gnome-texteditor]
+application-id='org.gnome.TextEditor.desktop'
+
+[desktop/notifications/application/snapd-desktop-integration-snapd-desktop-integration]
+application-id='snapd-desktop-integration_snapd-desktop-integration.desktop'
+
+[desktop/notifications/application/ulauncher]
+application-id='ulauncher.desktop'
+
+[desktop/notifications/application/update-manager]
+application-id='update-manager.desktop'
+
+[desktop/peripherals/keyboard]
+numlock-state=true
+
+[desktop/peripherals/stylus/148031c4]
+button-action='default'
+eraser-pressure-curve=[0, 0, 100, 100]
+pressure-curve=[0, 0, 100, 100]
+secondary-button-action='default'
+
+[desktop/peripherals/tablets/056a:0376]
+output=['GSM', 'LG TV', '0x01010101', 'HDMI-1']
+
+[desktop/peripherals/touchpad]
+speed=0.24812030075187974
+two-finger-scrolling-enabled=true
+
+[desktop/privacy]
+old-files-age=uint32 30
+recent-files-max-age=-1
+
+[desktop/screensaver]
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri='file:///home/gui/.local/share/backgrounds/2024-11-29-20-48-59-background'
+primary-color='#000000000000'
+secondary-color='#000000000000'
+
+[desktop/search-providers]
+sort-order=['org.gnome.Contacts.desktop', 'org.gnome.Documents.desktop', 'org.gnome.Nautilus.desktop']
+
+[desktop/session]
+idle-delay=uint32 0
+
+[desktop/wm/keybindings]
+minimize=['<Super>m']
+
+[desktop/wm/preferences]
+button-layout='close,minimize,maximize:'
+resize-with-right-button=true
+
+[eog/ui]
+sidebar=false
+
+[evince/default]
+continuous=true
+dual-page=false
+dual-page-odd-left=false
+enable-spellchecking=true
+fullscreen=false
+inverted-colors=false
+show-sidebar=true
+sidebar-page='thumbnails'
+sidebar-size=132
+sizing-mode='automatic'
+window-ratio=(1.0705882352941176, 0.71258907363420432)
+
+[evolution-data-server]
+migrated=true
+
+[gnome-system-monitor]
+current-tab='processes'
+maximized=false
+show-dependencies=false
+show-whose-processes='user'
+window-height=480
+window-width=620
+
+[gnome-system-monitor/disktreenew]
+col-0-visible=true
+col-0-width=144
+col-3-visible=true
+col-3-width=87
+col-6-visible=true
+col-6-width=0
+columns-order=[5]
+sort-col=1
+sort-order=0
+
+[gnome-system-monitor/proctree]
+columns-order=[0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
+sort-col=0
+sort-order=0
+
+[mutter]
+edge-tiling=false
+experimental-features=@as []
+
+[mutter/keybindings]
+toggle-tiled-left=@as []
+toggle-tiled-right=@as []
+
+[nautilus/preferences]
+default-folder-viewer='icon-view'
+migrated-gtk-settings=true
+search-filter-time-type='last_modified'
+
+[nautilus/window-state]
+initial-size=(956, 494)
+maximized=false
+
+[nm-applet/eap/41bcb44d-7246-4ead-abc1-fdfd11094804]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
+[nm-applet/eap/98b7c085-dc64-44de-b3a5-73e28b2afd34]
+ignore-ca-cert=true
+ignore-phase2-ca-cert=false
+
+[nm-applet/eap/e83f1280-822d-4858-90dd-f78e4499e475]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
+[portal/filechooser/code]
+last-folder-path='/home/gui/Desktop/faculdade/8sem/rpvm'
+
+[portal/filechooser/com.github.flxzt.rnote]
+last-folder-path='/home/gui/Downloads'
+
+[portal/filechooser/com.google.Chrome]
+last-folder-path='/home/gui/Downloads'
+
+[portal/filechooser/com.spotify.Client]
+last-folder-path='/home/gui/Downloads/icons'
+
+[portal/filechooser/google-chrome]
+last-folder-path='/home/gui/Desktop/faculdade/7sem/ia/IA_UNIFESP/Atividade_18'
+
+[portal/filechooser/org.gnome.Settings]
+last-folder-path='/home/gui/Downloads/icons'
+
+[portal/filechooser/ulauncher]
+last-folder-path='/home/gui/Desktop/cursos/luz-e-cena'
+
+[settings-daemon/plugins/color]
+night-light-enabled=false
+night-light-temperature=uint32 4700
+
+[settings-daemon/plugins/media-keys]
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4/']
+terminal=@as []
+
+[settings-daemon/plugins/media-keys/custom-keybindings/custom0]
+binding='<Control><Alt>t'
+command='alacritty'
+name='alacritty'
+
+[settings-daemon/plugins/media-keys/custom-keybindings/custom1]
+binding='<Control><Alt>ccedilla'
+command='xsetwacom set "Wacom Intuos BT S Pen stylus" Button 2 key "Ctrl Z"'
+name='wacom'
+
+[settings-daemon/plugins/media-keys/custom-keybindings/custom2]
+binding='<Control>ccedilla'
+command='killall spotify'
+name='kill spotify'
+
+[settings-daemon/plugins/media-keys/custom-keybindings/custom3]
+binding='<Control><Alt>s'
+command='flatpak run com.spotify.Client'
+name='spotify'
+
+[settings-daemon/plugins/media-keys/custom-keybindings/custom4]
+binding='<Control>space'
+command='ulauncher-toggle'
+name='ulauncher'
+
+[settings-daemon/plugins/power]
+sleep-inactive-ac-timeout=3600
+sleep-inactive-ac-type='nothing'
+sleep-inactive-battery-timeout=3600
+sleep-inactive-battery-type='suspend'
+
+[shell]
+app-picker-layout=[{'org.gnome.clocks.desktop': <{'position': <0>}>, 'org.gnome.Calculator.desktop': <{'position': <1>}>, 'org.gnome.Settings.desktop': <{'position': <2>}>, 'org.gnome.SystemMonitor.desktop': <{'position': <3>}>, 'org.gnome.Terminal.desktop': <{'position': <4>}>, 'Utilities': <{'position': <5>}>, 'yelp.desktop': <{'position': <6>}>, 'software-properties-drivers.desktop': <{'position': <7>}>, 'snap-store_snap-store.desktop': <{'position': <8>}>, 'org.gnome.Extensions.desktop': <{'position': <9>}>, 'firmware-updater_firmware-updater.desktop': <{'position': <10>}>, 'gdebi.desktop': <{'position': <11>}>, 'org.gnome.eog.desktop': <{'position': <12>}>, 'gnome-language-selector.desktop': <{'position': <13>}>, 'nvidia-settings.desktop': <{'position': <14>}>, 'org.gnome.PowerStats.desktop': <{'position': <15>}>, 'org.gnome.Software.desktop': <{'position': <16>}>, 'software-properties-gtk.desktop': <{'position': <17>}>, 'update-manager.desktop': <{'position': <18>}>, 'ulauncher.desktop': <{'position': <19>}>, 'gnome-session-properties.desktop': <{'position': <20>}>, 'org.gnome.TextEditor.desktop': <{'position': <21>}>, 'com.stremio.Stremio.desktop': <{'position': <22>}>, 'com.obsproject.Studio.desktop': <{'position': <23>}>}, {'nvvp.desktop': <{'position': <0>}>, 'docker-desktop.desktop': <{'position': <1>}>, 'nsys-ui-2024.4.2.desktop': <{'position': <2>}>}]
+disable-user-extensions=false
+disabled-extensions=['ubuntu-appindicators@ubuntu.com', 'ding@rastersoft.com', 'ubuntu-dock@ubuntu.com', 'transparent-top-bar@ftpix.com']
+enabled-extensions=['tiling-assistant@ubuntu.com', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'just-perfection-desktop@just-perfection', 'overviewbackground@github.com.orbitcorrection', 'hidetopbar@mathieu.bidon.ca', 'rounded-window-corners@fxgn', 'tophat@fflewddur.github.io', 'openbar@neuromorph', 'unlockDialogBackground@sun.wxg@gmail.com', 'gdm-extension@pratap.fastmail.fm']
+favorite-apps=['org.gnome.Nautilus.desktop', 'google-chrome.desktop', 'Alacritty.desktop', 'com.github.flxzt.rnote.desktop', 'com.spotify.Client.desktop', 'code.desktop']
+last-selected-power-profile='power-saver'
+welcome-dialog-last-shown-version='46.0'
+
+[shell/extensions/dash-to-dock]
+dash-max-icon-size=16
+dock-fixed=false
+dock-position='BOTTOM'
+extend-height=false
+preferred-monitor=-2
+preferred-monitor-by-connector='eDP-1'
+show-mounts=false
+show-mounts-network=false
+show-mounts-only-mounted=true
+show-trash=false
+
+[shell/extensions/ding]
+show-home=false
+
+[shell/extensions/hidetopbar]
+animation-time-autohide=0.10000000000000001
+animation-time-overview=0.10000000000000003
+enable-active-window=false
+enable-intellihide=true
+mouse-sensitive=false
+shortcut-keybind=['<Control>x']
+
+[shell/extensions/just-perfection]
+accessibility-menu=false
+activities-button=false
+alt-tab-icon-size=64
+alt-tab-small-icon-size=64
+alt-tab-window-preview-size=64
+background-menu=false
+calendar=true
+clock-menu=true
+controls-manager-spacing-size=40
+dash=false
+dash-app-running=false
+dash-icon-size=22
+dash-separator=false
+events-button=false
+keyboard-layout=false
+looking-glass-width=0
+panel=true
+panel-button-padding-size=0
+panel-icon-size=0
+panel-indicator-padding-size=0
+panel-size=0
+quick-settings=true
+quick-settings-dark-mode=false
+ripple-box=false
+search=false
+show-apps-button=false
+startup-status=0
+support-notifier-showed-time=uint64 1738441465869
+support-notifier-showed-version=34
+support-notifier-type=0
+theme=true
+type-to-search=true
+weather=false
+window-menu-take-screenshot-button=false
+window-preview-caption=false
+window-preview-close-button=false
+workspace-background-corner-size=0
+world-clock=false
+
+[shell/extensions/ob]
+blur-brightness=14
+blur-sigma=2
+
+[shell/extensions/openbar]
+apply-accent-shell=false
+apply-all-shell=false
+apply-menu-notif=false
+apply-menu-shell=false
+auto-bgalpha=false
+autofg-bar=true
+autofg-menu=false
+autohg-bar=false
+autotheme-font=false
+autotheme-refresh=false
+balpha=0.5
+bartype='Islands'
+bcolor=['0.310', '0.310', '0.310']
+bg-change=false
+bgalpha=0.0
+bgalpha-wmax=0.0
+bgalpha2=0.0
+bgcolor=['1.000', '1.000', '1.000']
+bgcolor-wmax=['1.000', '1.000', '1.000']
+bgcolor2=['1.000', '1.000', '1.000']
+bguri='file:///home/gui/Downloads/wallpapers/wallhaven-1k6ljv_1920x1080.png'
+border-wmax=true
+bottom-margin=0.0
+boxalpha=0.0
+boxcolor=['0.467', '0.463', '0.482']
+bradius=25.0
+buttonbg-wmax=true
+bwidth=1.0
+candyalpha=0.0
+count1=205605
+count10=460
+count11=94
+count12=34
+count2=109481
+count3=107147
+count4=54858
+count5=28143
+count6=12769
+count7=12518
+count8=8147
+count9=2463
+cust-margin-wmax=false
+dark-bcolor=['0.310', '0.310', '0.310']
+dark-bgcolor=['1.000', '1.000', '1.000']
+dark-bgcolor-wmax=['1.000', '1.000', '1.000']
+dark-bgcolor2=['1.000', '1.000', '1.000']
+dark-bguri='file:///home/gui/Downloads/wallpapers/wallhaven-1k6ljv_1920x1080.png'
+dark-boxcolor=['0.467', '0.463', '0.482']
+dark-fgcolor=['0.467', '0.463', '0.482']
+dark-hcolor=['0.336', '0.365', '0.380']
+dark-iscolor=['0.336', '0.365', '0.380']
+dark-palette1=['43', '56', '72']
+dark-palette10=['212', '117', '25']
+dark-palette11=['178', '52', '5']
+dark-palette12=['156', '140', '139']
+dark-palette2=['211', '162', '143']
+dark-palette3=['9', '9', '12']
+dark-palette4=['130', '97', '108']
+dark-palette5=['81', '82', '92']
+dark-palette6=['93', '102', '109']
+dark-palette7=['77', '87', '109']
+dark-palette8=['172', '101', '101']
+dark-palette9=['152', '129', '140']
+default-font='Sans 12'
+fgalpha=1.0
+fgcolor=['0.467', '0.463', '0.482']
+fitts-widgets=false
+font='SF Pro Display 10'
+gradient=false
+halpha=0.14999999999999999
+hcolor=['0.336', '0.365', '0.380']
+heffect=true
+height=30.0
+hpad=0.0
+import-export=false
+isalpha=0.28999999999999998
+iscolor=['0.336', '0.365', '0.380']
+light-bguri='file:///home/gui/Downloads/wallpapers/wallhaven-1k6ljv_1920x1080.png'
+light-palette1=['43', '56', '72']
+light-palette10=['212', '117', '25']
+light-palette11=['178', '52', '5']
+light-palette12=['156', '140', '139']
+light-palette2=['211', '162', '143']
+light-palette3=['9', '9', '12']
+light-palette4=['130', '97', '108']
+light-palette5=['81', '82', '92']
+light-palette6=['93', '102', '109']
+light-palette7=['77', '87', '109']
+light-palette8=['172', '101', '101']
+light-palette9=['152', '129', '140']
+margin=5.0
+margin-wmax=0.0
+menustyle=false
+monitor-height=1080
+monitor-width=1920
+neon=false
+neon-wmax=false
+palette1=['43', '56', '72']
+palette10=['212', '117', '25']
+palette11=['178', '52', '5']
+palette12=['156', '140', '139']
+palette2=['211', '162', '143']
+palette3=['9', '9', '12']
+palette4=['130', '97', '108']
+palette5=['81', '82', '92']
+palette6=['93', '102', '109']
+palette7=['77', '87', '109']
+palette8=['172', '101', '101']
+palette9=['152', '129', '140']
+pause-reload=false
+position='Top'
+radius-bottomleft=true
+radius-bottomright=true
+radius-topleft=true
+radius-topright=true
+reloadstyle=false
+set-bottom-margin=false
+set-notif-position=true
+set-overview=true
+shadow=false
+shalpha=0.0
+smbgoverride=false
+trigger-reload=true
+vpad=0.0
+width-left=true
+width-top=true
+wmax-hbarhint=false
+wmaxbar=false
+
+[shell/extensions/rounded-window-corners-reborn]
+blacklist=['ulauncher']
+border-color=(0.16862745583057404, 0.16862745583057404, 0.16862745583057404, 1.0)
+border-width=1
+global-rounded-corner-settings={'padding': <{'left': uint32 1, 'right': 1, 'top': 1, 'bottom': 1}>, 'keepRoundedCorners': <{'maximized': false, 'fullscreen': false}>, 'borderRadius': <uint32 16>, 'smoothing': <0.0>, 'borderColor': <(0.30980393290519714, 0.30980393290519714, 0.30980393290519714, 1.0)>, 'enabled': <true>}
+settings-version=uint32 7
+skip-libadwaita-app=false
+skip-libhandy-app=false
+
+[shell/extensions/tiling-assistant]
+active-window-hint-color='rgb(211,70,21)'
+last-version-installed=46
+overridden-settings={'org.gnome.mutter.edge-tiling': <@mb nothing>, 'org.gnome.mutter.keybindings.toggle-tiled-left': <@mb nothing>, 'org.gnome.mutter.keybindings.toggle-tiled-right': <@mb nothing>}
+tiling-popup-all-workspace=true
+
+[shell/extensions/tophat]
+cpu-display='chart'
+cpu-show-cores=false
+fs-display='chart'
+group-procs=true
+meter-fg-color='rgb(255,255,255)'
+mount-to-monitor='/'
+position-in-panel='left'
+refresh-rate='medium'
+show-disk=false
+show-fs=true
+show-icons=true
+show-menu-actions=true
+show-net=false
+
+[shell/extensions/unlock-dialog-background]
+picture-uri='/home/gui/Downloads/wallpapers/wallhaven-8xv35o_1920x1080.png'
+picture-uri-dark='/home/gui/Downloads/wallpapers/wallhaven-8xv35o_1920x1080.png'
+
+[shell/extensions/user-theme]
+name='Orchis-Grey-Dark'
+
+[shell/keybindings]
+toggle-message-tray=@as []
+
+[shell/world-clocks]
+locations=@av []
+
+[software]
+check-timestamp=int64 1766154042
+flatpak-purge-timestamp=int64 1765546910
+install-timestamp=int64 1763768589
+update-notification-timestamp=int64 1764984548

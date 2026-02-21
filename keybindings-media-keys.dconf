@@ -1,0 +1,28 @@
+[/]
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4/']
+terminal=@as []
+
+[custom-keybindings/custom0]
+binding='<Control><Alt>t'
+command='alacritty'
+name='alacritty'
+
+[custom-keybindings/custom1]
+binding='<Control><Alt>ccedilla'
+command='xsetwacom set "Wacom Intuos BT S Pen stylus" Button 2 key "Ctrl Z"'
+name='wacom'
+
+[custom-keybindings/custom2]
+binding='<Control>ccedilla'
+command='killall spotify'
+name='kill spotify'
+
+[custom-keybindings/custom3]
+binding='<Control><Alt>s'
+command='flatpak run com.spotify.Client'
+name='spotify'
+
+[custom-keybindings/custom4]
+binding='<Control>space'
+command='ulauncher-toggle'
+name='ulauncher'
