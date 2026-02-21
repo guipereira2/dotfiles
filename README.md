@@ -1,5 +1,5 @@
 # dotfiles
-Setup para sistemas UNIX 
+Setup para sistemas Linux
 
 ---
 
@@ -8,3 +8,9 @@ Setup para sistemas UNIX
 ## Setup
 Feito com [`chezmoi`](https://github.com/twpayne/chezmoi).
 
+## Info
+
+- Distro: `Ubuntu`
+- Terminal Emulator: `Alacritty`
+- Editor: VSCode
+- Font: `JetBrainsMono Nerd Font`
