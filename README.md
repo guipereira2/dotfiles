@@ -7,3 +7,5 @@ Setup para sistemas UNIX
 
 ## Setup
 Feito com [`chezmoi`](https://github.com/twpayne/chezmoi).
+
+!WIP 
