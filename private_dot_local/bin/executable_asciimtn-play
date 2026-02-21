@@ -1,0 +1,83 @@
+#!/usr/bin/env python3
+import json, sys, time, os
+
+def hex_to_ansi(hex_color):
+    if not hex_color or hex_color == 'transparent':
+        return ''
+    hex_color = hex_color.lstrip('#')
+    if len(hex_color) == 3:
+        hex_color = ''.join(c*2 for c in hex_color)
+    try:
+        r, g, b = int(hex_color[0:2],16), int(hex_color[2:4],16), int(hex_color[4:6],16)
+        return f'\033[38;2;{r};{g};{b}m'
+    except:
+        return ''
+
+def render_frame(data, width, height):
+    grid = [[(' ', '') for _ in range(width)] for _ in range(height)]
+    for key, cell in data.items():
+        try:
+            x, y = map(int, key.split(','))
+            if 0 <= x < width and 0 <= y < height:
+                grid[y][x] = (cell.get('char', ' '), cell.get('color', ''))
+        except:
+            pass
+    lines = []
+    for row in grid:
+        line = ''
+        for char, color in row:
+            ansi = hex_to_ansi(color)
+            if ansi:
+                line += ansi + char + '\033[0m'
+            else:
+                line += char
+        lines.append(line)
+    return '\n'.join(lines)
+
+def play(path, loops=1):
+    with open(path) as f:
+        d = json.load(f)
+
+    width = d['canvas']['width']
+    height = d['canvas']['height']
+    fps = d['timeline'].get('frameRate', 10)
+    looping = d['timeline'].get('looping', False)
+    delay = 1.0 / fps
+
+    layer = d['layers'][0]
+    frames = sorted(layer['contentFrames'], key=lambda f: f['startFrame'])
+
+    # Expand frames to full timeline
+    total = d['timeline']['durationFrames']
+    timeline = {}
+    for cf in frames:
+        for i in range(cf['durationFrames']):
+            timeline[cf['startFrame'] + i] = cf['data']
+
+    # Hide cursor only (sem alternate screen)
+    sys.stdout.write('\033[?25l')
+    sys.stdout.flush()
+
+    try:
+        run = 0
+        while True:
+            for i in range(total):
+                data = timeline.get(i, {})
+                frame_str = render_frame(data, width, height)
+                # Limpa tela e move cursor pro início a cada frame
+                sys.stdout.write('\033[2J\033[H' + frame_str)
+                sys.stdout.flush()
+                time.sleep(delay)
+            run += 1
+            if run >= loops:
+                break
+    finally:
+        sys.stdout.write('\033[?25h\033[0m')
+        sys.stdout.flush()
+
+if __name__ == '__main__':
+    if len(sys.argv) < 2:
+        print("Uso: asciimtn-play <arquivo.asciimtn> [loops]")
+        sys.exit(1)
+    loops = int(sys.argv[2]) if len(sys.argv) > 2 else 1
+    play(sys.argv[1], loops)
