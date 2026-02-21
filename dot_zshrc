@@ -64,7 +64,6 @@ export NVM_DIR="$HOME/.nvm"
 export QT_XCB_GL_INTEGRATION=none
 . "/home/gui/.deno/env"
 
-# GitHub Copilot CLI — sempre exibe o banner
 alias copilot='copilot --banner'
 export PATH="$HOME/.local/bin:$PATH"
 

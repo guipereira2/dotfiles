@@ -3,7 +3,6 @@ program = "/usr/bin/zsh"
 args = ["-l"]
 
 [colors]
-# Tema: Lawson @ Fuji — paleta extraída do wallpaper
 
 [colors.primary]
 background = '#0d1422'
@@ -15,25 +14,25 @@ cursor = '#ffffff'
 
 # Normal colors
 [colors.normal]
-black   = '#1a2540'   # navy escuro (céu base)
-red     = '#c87060'   # âmbar-avermelhado (luz da loja)
+black   = '#1a2540'   
+red     = '#c87060'   
 green   = '#ffffff'
-yellow  = '#c8a46a'   # âmbar dourado (interior Lawson)
-blue    = '#4a72b8'   # azul céu / Lawson
-magenta = '#7a7ab0'   # roxo-azulado (entardecer na montanha)
-cyan    = '#7ab8cc'   # azul neve frio
-white   = '#c0cedf'   # branco-azulado (neve do Fuji)
+yellow  = '#c8a46a'   
+blue    = '#4a72b8'   
+magenta = '#7a7ab0'   
+cyan    = '#7ab8cc'   
+white   = '#c0cedf'   
 
 # Bright colors
 [colors.bright]
-black   = '#2d3e5c'   # navy médio
-red     = '#e08070'   # âmbar-vermelho vivo
-green   = '#8ac8b8'   # verde-teal claro
-yellow  = '#e8c07a'   # âmbar claro
-blue    = '#6a92d8'   # azul céu vivo
-magenta = '#9a9ad0'   # lilás-azulado
-cyan    = '#9acce0'   # ciano neve
-white   = '#e8eef8'   # quase branco puro
+black   = '#2d3e5c'   
+red     = '#e08070'   
+green   = '#8ac8b8'   
+yellow  = '#e8c07a'   
+blue    = '#6a92d8'   
+magenta = '#9a9ad0'   
+cyan    = '#9acce0'   
+white   = '#e8eef8'   
 
 [window]
 
