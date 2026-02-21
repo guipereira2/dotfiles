@@ -1,5 +1,8 @@
 "$schema" = 'https://starship.rs/config-schema.json'
 
+format = '$directory${custom.runtimes}$character'
+
+
 [bun]
 format = "via [$symbol]($style)"
 
@@ -88,7 +91,7 @@ format = 'with [$symbol]($style)'
 format = 'via [$symbol]($style)'
 
 [nodejs]
-format = 'via [$symbol]($style)'
+format = ''
 
 [ocaml]
 format = 'via [$symbol(\($switch_indicator$switch_name\) )]($style)'
@@ -148,7 +151,7 @@ format = 'via [$symbol]($style)'
 format = 'via [$symbol]($style)'
 
 [vagrant]
-format = 'via [$symbol]($style)'
+disabled = true
 
 [vlang]
 format = 'via [$symbol]($style)'
@@ -158,3 +161,19 @@ format = "via [$symbol]($style)"
 
 [zig]
 format = 'via [$symbol]($style)'
+
+[conda]
+format = ''
+ignore_base = false
+
+[custom.runtimes]
+when = "true"
+style = "bold cyan"
+format = '[$output]($style) '
+command = '''
+icons=""
+{ [ -f package.json ] || [ -d node_modules ]; } && icons="⬢"
+[ -n "$CONDA_DEFAULT_ENV" ] && icons="${icons:+$icons }🐍"
+[ -n "$icons" ] && printf "[%s]" "$icons" || true
+'''
+
