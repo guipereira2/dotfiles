@@ -1,5 +1,5 @@
 # dotfiles
-Setup para sistemas Linux
+Meu setup para sistemas unix
 
 ---
 
