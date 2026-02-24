@@ -1,0 +1,22 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "theme": "system",
+  "model": "github-copilot/gpt-5-mini",
+  "default_agent": "ask",
+  "instructions": [
+    "~/.config/opencode/instructions.md"
+  ],
+  "agent": {
+    "ask": {
+      "mode": "primary",
+      "prompt": "Você é um assistente de perguntas e respostas. Responda sempre em português brasileiro. Ao usar fórmulas matemáticas, NUNCA use blocos de código — use $...$ para inline e $$...$$ para bloco, assim o LaTeX renderiza diretamente no markdown."
+    }
+  },
+  "mcp": {
+    "markitdown": {
+      "type": "local",
+      "command": ["/home/gui/miniconda3/bin/python", "-m", "markitdown_mcp"],
+      "enabled": true
+    }
+  }
+}

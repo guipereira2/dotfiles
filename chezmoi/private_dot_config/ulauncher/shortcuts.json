@@ -14,7 +14,7 @@
         "name": "Opencode",
         "description": "Custom Local AI Agent and Chatbot",
         "keyword": "opencode",
-        "cmd": "#!/bin/bash\n\n# Mata inst\u00e2ncia anterior se existir\nkill $(pgrep -f \"opencode serve\") 2>/dev/null\nsleep 0.5\n\n# Inicia o servidor headless (porta fixa 4096)\nnohup /home/gui/.opencode/bin/opencode serve --port 4096 &>/tmp/opencode-web.log &\nsleep 2\n\n# Abre no browser\nxdg-open \"http://127.0.0.1:4096\"",
+        "cmd": "#!/bin/bash\nSERVER=\"http://127.0.0.1:4096\"\nPROXY=\"http://127.0.0.1:4095\"\nWEB_HOME=\"$PROXY/L2hvbWUvZ3Vp/session\"\n\n# Inicia servidor (que tamb\u00e9m inicia o proxy)\nif ! curl -sf --max-time 1 \"$SERVER/session\" > /dev/null 2>&1; then\n  nohup /home/gui/.opencode/bin/opencode-server.sh >> /tmp/opencode-server.log 2>&1 &\n  for i in $(seq 1 60); do\n    sleep 0.5\n    curl -sf --max-time 1 \"$SERVER/session\" > /dev/null 2>&1 && break\n  done\nfi\n\n# Aguarda proxy (max 5s)\nfor i in $(seq 1 10); do\n  curl -sf --max-time 1 \"$PROXY/session\" > /dev/null 2>&1 && break\n  sleep 0.5\ndone\n\ngoogle-chrome --new-tab \"$WEB_HOME\"\n",
         "icon": "~/Downloads/icons/opencode-logo-dark-square.png",
         "is_default_search": false,
         "run_without_argument": true,

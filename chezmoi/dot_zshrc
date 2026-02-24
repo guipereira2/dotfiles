@@ -77,9 +77,22 @@ fi
 export PATH=/home/gui/.opencode/bin:$PATH
 
 function opencode() {
-  # Usa porta 4097 no terminal (ULauncher usa 4096)
-  if [[ "$1" == "serve" ]] && [[ "$*" != *"--port"* ]]; then
-    command opencode serve --port 4097 "${@:2}"
+  local SHARED_SERVER="http://127.0.0.1:4096"
+
+  if [[ $# -eq 0 ]]; then
+    if ! curl -sf --max-time 1 "$SHARED_SERVER/session" > /dev/null 2>&1; then
+      echo "opencode: iniciando servidor..." >&2
+      nohup /home/gui/.opencode/bin/opencode-server.sh >> /tmp/opencode-server.log 2>&1 &!
+      for i in $(seq 1 60); do
+        sleep 0.5
+        curl -sf --max-time 1 "$SHARED_SERVER/session" > /dev/null 2>&1 && break
+        if [[ $i -eq 60 ]]; then
+          echo "opencode: servidor não respondeu em 30s" >&2
+          return 1
+        fi
+      done
+    fi
+    command opencode attach "$SHARED_SERVER"
   else
     command opencode "$@"
   fi

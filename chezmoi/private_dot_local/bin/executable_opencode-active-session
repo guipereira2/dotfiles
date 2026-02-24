@@ -1,0 +1,16 @@
+#!/usr/bin/env python3
+import sys, json, urllib.request
+
+SERVER = "http://127.0.0.1:4096"
+
+try:
+    with urllib.request.urlopen(SERVER + "/session", timeout=2) as r:
+        sessions = json.load(r)
+except Exception:
+    sys.exit(1)
+
+active = [s for s in sessions if not s.get("time", {}).get("archived")]
+
+if active:
+    latest = sorted(active, key=lambda s: s["time"]["updated"], reverse=True)[0]
+    print(latest["id"])
