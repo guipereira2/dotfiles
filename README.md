@@ -3,7 +3,8 @@ Meu setup para sistemas unix
 
 ---
 
-![](./print.png)
+![](.//assets/print.png) 
+
 
 ## Setup
 Feito com [`chezmoi`](https://github.com/twpayne/chezmoi).
