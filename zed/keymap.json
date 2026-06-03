@@ -1,0 +1,59 @@
+// Zed keymap
+//
+// For information on binding keys, see the Zed
+// documentation: https://zed.dev/docs/key-bindings
+//
+// To see the default key bindings run `zed: open default keymap`
+// from the command palette.
+[
+    {
+        "context": "Workspace",
+        "bindings": {
+            "ctrl-b": "workspace::ToggleRightDock",
+            "ctrl-a b": "project_panel::ToggleFocus",
+            "ctrl-a a": "agent::Toggle",
+            "ctrl-a o": "outline_panel::ToggleFocus",
+            "ctrl-a j": "multi_workspace::ToggleWorkspaceSidebar",
+            "ctrl-a g": "git_panel::Toggle",
+            "ctrl-a p": "diagnostics::Deploy",
+            "ctrl-a [": "workspace::ActivatePaneLeft",
+            "ctrl-a ]": "workspace::ActivatePaneRight",
+            "ctrl-a t": "terminal_panel::ToggleFocus",
+        },
+    },
+    {
+        "context": "Editor && !menu",
+        "bindings": {
+            "ctrl-b": "workspace::ToggleRightDock",
+            "ctrl-shift-c": "editor::Copy",
+            "ctrl-v": "editor::Paste",
+        },
+    },
+    {
+        "context": "ProjectPanel",
+        "bindings": {
+        },
+    },
+    {
+        "context": "Pane",
+        "bindings": {
+            "ctrl-a r": "buffer_search::DeployReplace",
+            "ctrl-w": [
+                "pane::CloseActiveItem",
+                {
+                    "close_pinned": false,
+                },
+            ],
+        },
+    },
+    {
+        "context": "Editor",
+        "bindings": {
+            "ctrl-a m": "editor::AddSelectionBelow",
+            "ctrl-a s": "pane::SplitRight",
+            "ctrl-s": "workspace::Save",
+            "ctrl-d": "editor::ShowCompletions",
+            "ctrl-;": null,
+        },
+    },
+]
