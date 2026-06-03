@@ -14,9 +14,14 @@ return {
         "pyright",
         "typescript-language-server",
         "yaml-language-server",
+        "gopls",
 
         -- install formatters
         "stylua",
+        "gofumpt",
+
+        -- install linters
+        "golangci-lint",
       },
     },
   },

@@ -23,6 +23,12 @@ return {
     -- AstroUI allows you to easily modify highlight groups easily for any and all colorschemes
     highlights = {
       init = { -- this table overrides highlights in all themes
+        SnacksDashboardHeader  = { fg = "#ffffff" },
+        SnacksDashboardDesc    = { fg = "#ffffff" },
+        SnacksDashboardIcon    = { fg = "#ffffff" },
+        SnacksDashboardKey     = { fg = "#ffffff" },
+        SnacksDashboardFooter  = { fg = "#ffffff" },
+        SnacksDashboardSpecial = { fg = "#ffffff" },
         Normal = { bg = "NONE" },
         NormalNC = { bg = "NONE" },
         StatusLine = { bg = "NONE" },

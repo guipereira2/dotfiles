@@ -20,7 +20,7 @@ return {
       format_on_save = {
         enabled = true, -- enable or disable format on save globally
         allow_filetypes = { -- enable format on save for specified filetypes only
-          -- "go",
+          "go",
         },
         ignore_filetypes = { -- disable format on save for specified filetypes
           -- "python",
@@ -41,11 +41,30 @@ return {
       "pyright",
       "ts_ls",
       "yamlls",
+      "gopls",
     },
     -- customize language server configuration passed to `vim.lsp.config`
     -- client specific configuration can also go in `lsp/` in your configuration root (see `:h lsp-config`)
     config = {
-      -- ["*"] = { capabilities = {} }, -- modify default LSP client settings such as capabilities
+      gopls = {
+        settings = {
+          gopls = {
+            gofumpt = true,
+            analyses = {
+              unusedparams = true,
+              shadow = true,
+            },
+            staticcheck = true,
+            hints = {
+              assignVariableTypes = true,
+              compositeLiteralFields = true,
+              functionTypeParameters = true,
+              parameterNames = true,
+              rangeVariableTypes = true,
+            },
+          },
+        },
+      },
     },
     -- customize how language servers are attached
     handlers = {
