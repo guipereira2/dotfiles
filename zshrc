@@ -20,8 +20,6 @@ alias egrep='egrep --color=auto'
 export PATH="$HOME/.cargo/bin:$PATH"
 [ -f "$HOME/.cargo/env" ] && . "$HOME/.cargo/env"
 
-export PATH=/usr/local/cuda/bin:$PATH
-
 export QT_XCB_GL_INTEGRATION=none
 
 export PATH="$HOME/.local/bin:$PATH"
