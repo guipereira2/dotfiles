@@ -11,6 +11,12 @@ return {
     -- change colorscheme
     colorscheme = "min-theme",
     status = {
+      separators = {
+        breadcrumbs = " › ",
+      },
+      attributes = {
+        buffer_active = { italic = false, bold = true },
+      },
       components = {
         nav = {
           ruler = false,
@@ -29,10 +35,15 @@ return {
         SnacksDashboardKey     = { fg = "#ffffff" },
         SnacksDashboardFooter  = { fg = "#ffffff" },
         SnacksDashboardSpecial = { fg = "#ffffff" },
+        NeoTreeDirIconWhite = { fg = "#ffffff" },
         Normal = { bg = "NONE" },
         NormalNC = { bg = "NONE" },
         StatusLine = { bg = "NONE" },
         StatusLineNC = { bg = "NONE" },
+        SnacksIndent = { fg = "#3a3a3a" },
+        SnacksIndentScope = { fg = "#4a4a4a" },
+        WinSeparator = { fg = "#3a3a3a", bg = "NONE" },
+        VertSplit = { fg = "#3a3a3a", bg = "NONE" },
         WinBar = { bg = "NONE" },
         WinBarNC = { bg = "NONE" },
         TabLine = { bg = "NONE" },
@@ -52,12 +63,12 @@ return {
         NeoTreeStatusLineNC = { bg = "NONE" },
         NeoTreeTabInactive = { bg = "NONE" },
         NeoTreeTabActive = { bg = "NONE" },
-        NeoTreeTabSeparatorInactive = { bg = "NONE" },
-        NeoTreeTabSeparatorActive = { bg = "NONE" },
+        NeoTreeTabSeparatorInactive = { bg = "NONE", fg = "#3a3a3a" },
+        NeoTreeTabSeparatorActive = { bg = "NONE", fg = "#3a3a3a" },
         NeoTreeTabInactiveTransparent = { bg = "NONE" },
         NeoTreeTabActiveTransparent = { bg = "NONE", bold = true },
-        NeoTreeTabSeparatorInactiveTransparent = { bg = "NONE" },
-        NeoTreeTabSeparatorActiveTransparent = { bg = "NONE" },
+        NeoTreeTabSeparatorInactiveTransparent = { bg = "NONE", fg = "#3a3a3a" },
+        NeoTreeTabSeparatorActiveTransparent = { bg = "NONE", fg = "#3a3a3a" },
         NeoTreeFloatNormal = { bg = "NONE" },
         NeoTreeFloatBorder = { bg = "NONE" },
       },

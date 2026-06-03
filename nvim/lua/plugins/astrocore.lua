@@ -62,14 +62,17 @@ return {
         ["<C-S-Tab>"] = { function() require("astrocore.buffer").nav(-vim.v.count1) end, desc = "Previous buffer" },
         ["<C-S-C>"] = { '"+yy', desc = "Copy line to clipboard" },
         ["<C-v>"] = { '"+p', desc = "Paste from clipboard" },
+        ["<C-s>"] = { "<cmd>w<cr>", desc = "Save file" },
       },
       v = {
         ["<C-S-C>"] = { '"+y', desc = "Copy selection to clipboard" },
         ["<C-v>"] = { '"+p', desc = "Paste from clipboard" },
+        ["<C-s>"] = { "<esc><cmd>w<cr>", desc = "Save file" },
       },
       i = {
         ["<C-v>"] = { "<C-r>+", desc = "Paste from clipboard" },
         ["<C-d>"] = { function() require("blink.cmp").show() end, desc = "Show completions" },
+        ["<C-s>"] = { "<cmd>w<cr>", desc = "Save file" },
       },
     },
   },

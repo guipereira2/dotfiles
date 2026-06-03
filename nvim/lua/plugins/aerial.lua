@@ -1,5 +1,3 @@
--- aerial uses Nerd Font v3 icons (U+F0000+) by default which Ghostty does not render.
--- Override with codicon icons from U+E000-U+F8FF (BMP PUA, renders correctly).
 ---@type LazySpec
 return {
   "stevearc/aerial.nvim",

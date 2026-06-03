@@ -19,8 +19,6 @@ return {
         -- install formatters
         "stylua",
         "gofumpt",
-
-        -- install linters
         "golangci-lint",
       },
     },

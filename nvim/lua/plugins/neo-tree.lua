@@ -2,7 +2,16 @@
 return {
   "nvim-neo-tree/neo-tree.nvim",
   opts = {
-    window = { position = "right" },
+    window = {
+      position = "right",
+      mappings = {
+        ["<C-Tab>"] = "next_source",
+        ["<C-S-Tab>"] = "prev_source",
+      },
+    },
+    source_selector = {
+      separator = { left = "", right = " │" },
+    },
     filesystem = { hijack_netrw_behavior = "disabled" },
     event_handlers = {
       {

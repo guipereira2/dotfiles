@@ -19,6 +19,8 @@
             "ctrl-a [": "workspace::ActivatePaneLeft",
             "ctrl-a ]": "workspace::ActivatePaneRight",
             "ctrl-a t": "terminal_panel::ToggleFocus",
+            "ctrl-a n": "pane::DeploySearch",
+            "ctrl-a l": "project_symbols::Toggle",
         },
     },
     {
@@ -31,13 +33,18 @@
     },
     {
         "context": "ProjectPanel",
+        "bindings": {},
+    },
+    {
+        "context": "BufferSearchBar",
         "bindings": {
+            "ctrl-n": "search::SelectNextMatch",
+            "ctrl-p": "search::SelectPreviousMatch",
         },
     },
     {
         "context": "Pane",
         "bindings": {
-            "ctrl-a r": "buffer_search::DeployReplace",
             "ctrl-w": [
                 "pane::CloseActiveItem",
                 {
@@ -49,6 +56,9 @@
     {
         "context": "Editor",
         "bindings": {
+            "ctrl-a w": "outline::Toggle",
+            "ctrl-a f": "buffer_search::Deploy",
+            "ctrl-a r": "buffer_search::DeployReplace",
             "ctrl-a m": "editor::AddSelectionBelow",
             "ctrl-a s": "pane::SplitRight",
             "ctrl-s": "workspace::Save",
