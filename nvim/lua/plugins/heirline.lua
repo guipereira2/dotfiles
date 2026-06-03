@@ -4,6 +4,7 @@ return {
   opts = function(_, opts)
     local status = require "astroui.status"
     opts.statusline = {
+      condition = function() return vim.bo.filetype ~= "snacks_dashboard" end,
       hl = { fg = "fg", bg = "NONE" },
       status.component.file_info {
         file_icon = false,

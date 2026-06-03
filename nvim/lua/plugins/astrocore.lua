@@ -11,6 +11,39 @@ return {
         signcolumn = "yes",
         wrap = false,
         swapfile = false,
+        laststatus = 3,
+      },
+    },
+    autocmds = {
+      hide_dashboard_statusline = {
+        {
+          event = "FileType",
+          pattern = "snacks_dashboard",
+          callback = function() vim.opt_local.statusline = " " end,
+        },
+      },
+      dir_open_layout = {
+        {
+          event = "VimEnter",
+          callback = function(data)
+            if vim.fn.isdirectory(data.file) == 1 then
+              vim.schedule(function()
+                local win = vim.api.nvim_get_current_win()
+                local buf = vim.api.nvim_get_current_buf()
+                require("snacks.dashboard").open({ win = win, buf = buf })
+                vim.schedule(function()
+                  require("neo-tree.command").execute({
+                    action = "show",
+                    source = "filesystem",
+                    position = "right",
+                    dir = data.file,
+                  })
+                  vim.api.nvim_set_current_win(win)
+                end)
+              end)
+            end
+          end,
+        },
       },
     },
     mappings = {
@@ -36,6 +69,7 @@ return {
       },
       i = {
         ["<C-v>"] = { "<C-r>+", desc = "Paste from clipboard" },
+        ["<C-d>"] = { function() require("blink.cmp").show() end, desc = "Show completions" },
       },
     },
   },
