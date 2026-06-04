@@ -17,8 +17,6 @@ alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 
-export PATH="$HOME/.cargo/bin:$PATH"
-[ -f "$HOME/.cargo/env" ] && . "$HOME/.cargo/env"
 
 export QT_XCB_GL_INTEGRATION=none
 
