@@ -15,10 +15,12 @@ return {
         "typescript-language-server",
         "yaml-language-server",
         "gopls",
+        "roslyn-language-server",
 
         -- install formatters
         "stylua",
-        "gofumpt",
+
+        -- install linters
         "golangci-lint",
       },
     },

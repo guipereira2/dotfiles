@@ -6,7 +6,11 @@ return {
     opts.statusline = {
       condition = function() return vim.bo.filetype ~= "snacks_dashboard" end,
       hl = { fg = "fg", bg = "NONE" },
-      status.component.git_branch { surround = false, padding = { left = 1, right = 1 } },
+      status.component.git_branch {
+        surround = false,
+        padding = { left = 1, right = 1 },
+        hl = { fg = "#888888" },
+      },
       status.component.file_info {
         file_icon = { padding = { left = 1, right = 1 } },
         bufnr = false,
