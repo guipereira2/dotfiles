@@ -92,6 +92,9 @@
         "button": false,
     },
     "restore_on_startup": "launchpad",
+    "tabs": {
+        "file_icons": true,
+    },
     "theme_overrides": {
         "Min Dark (Blurred)": {
             "editor.document_highlight.bracket_background": "#B392F185",
