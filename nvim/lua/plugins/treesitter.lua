@@ -18,8 +18,6 @@ return {
         "vimdoc",
         "query",
         "python",
-        "typescript",
-        "tsx",
         "yaml",
         "json",
         "jsonc",
