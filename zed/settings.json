@@ -7,6 +7,17 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+    "feature_flags": {
+        "notebooks": "on",
+        "tabular-data-preview": "on",
+    },
+    "auto_install_extensions": {
+        "csharp": true,
+        "dockerfile": true,
+        "html": true,
+        "jetbrains-new-ui-icons": true,
+        "min-theme": true,
+    },
     "edit_predictions": {
         "provider": "none",
     },
