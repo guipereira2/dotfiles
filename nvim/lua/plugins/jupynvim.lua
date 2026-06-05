@@ -2,8 +2,6 @@
 return {
   {
     "sheng-tse/jupynvim",
-    -- Carrega no startup: o plugin registra um autocmd BufReadCmd em *.ipynb
-    -- dentro do setup(), entao precisa estar ativo ANTES de abrir o arquivo.
     lazy = false,
     build = function(plugin)
       local install = loadfile(plugin.dir .. "/lua/jupynvim/install.lua")()
@@ -11,8 +9,8 @@ return {
     end,
     opts = {
       log_level = "info",
-      image_renderer = "placeholder", -- correto p/ uso dentro do tmux (kitty direto e' instavel ali)
-      auto_venv = true, -- detecta o .venv do projeto (ipykernel) subindo a partir do notebook
+      image_renderer = "placeholder",
+      auto_venv = true,
     },
     config = function(_, opts)
       require("jupynvim").setup(opts)
