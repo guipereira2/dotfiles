@@ -57,6 +57,7 @@
         "context": "Editor",
         "bindings": {
             "ctrl-a w": "outline::Toggle",
+            "ctrl-a h": "editor::ToggleInlayHints",
             "ctrl-a f": "buffer_search::Deploy",
             "ctrl-a r": "buffer_search::DeployReplace",
             "ctrl-a m": "editor::AddSelectionBelow",
