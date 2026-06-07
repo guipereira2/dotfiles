@@ -65,6 +65,13 @@
             "ctrl-s": "workspace::Save",
             "ctrl-d": "editor::ShowCompletions",
             "ctrl-;": null,
+            "ctrl-\\": null,
+        },
+    },
+    {
+        "context": "Editor && mode == full",
+        "bindings": {
+            "ctrl-enter": null,
         },
     },
 ]
