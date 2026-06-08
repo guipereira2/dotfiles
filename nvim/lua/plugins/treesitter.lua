@@ -25,6 +25,8 @@ return {
         "gomod",
         "gosum",
         "gowork",
+        "markdown",
+        "markdown_inline",
       },
     },
   },
