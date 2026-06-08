@@ -1,5 +1,4 @@
-if true then return end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
-
--- This will run last in the setup process.
--- This is just pure lua so anything that doesn't
--- fit in the normal config locations above can go here
+local reload_timer = vim.uv.new_timer()
+reload_timer:start(500, 500, vim.schedule_wrap(function()
+  if vim.fn.getcmdwintype() == "" then vim.cmd "silent! checktime" end
+end))

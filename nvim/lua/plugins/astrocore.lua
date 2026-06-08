@@ -45,6 +45,13 @@ return {
           end,
         },
       },
+      auto_reload_file = {
+        {
+          event = { "CursorHold", "CursorHoldI" },
+          desc = "Check for external file changes while idle",
+          command = "silent! checktime",
+        },
+      },
     },
     mappings = {
       n = {
