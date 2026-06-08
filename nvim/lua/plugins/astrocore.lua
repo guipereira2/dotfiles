@@ -72,6 +72,7 @@ return {
         ["<C-s>"] = { "<esc><cmd>w<cr>", desc = "Save file" },
       },
       i = {
+        ["<C-S-C>"] = { '<C-o>"+yy', desc = "Copy line to clipboard" },
         ["<C-v>"] = { "<C-r>+", desc = "Paste from clipboard" },
         ["<C-d>"] = { function() require("blink.cmp").show() end, desc = "Show completions" },
         ["<C-s>"] = { "<cmd>w<cr>", desc = "Save file" },
