@@ -28,6 +28,7 @@ return {
       opts.window.mappings = opts.window.mappings or {}
       opts.window.mappings["<C-q>"] = "open"
       opts.window.mappings["<C-Q>"] = "open"
+      opts.window.mappings["<C-n>"] = "add"
       opts.sources = { "filesystem", "buffers" }
       opts.source_selector = opts.source_selector or {}
       opts.source_selector.highlight_tab = "NeoTreeTabInactiveTransparent"
