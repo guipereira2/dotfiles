@@ -12,6 +12,8 @@ return {
         wrap = true,
         swapfile = false,
         laststatus = 3,
+        tabstop = 4,
+        shiftwidth = 4,
       },
     },
     autocmds = {
