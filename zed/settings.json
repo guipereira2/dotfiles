@@ -19,7 +19,8 @@
         "min-theme": true,
     },
     "edit_predictions": {
-        "provider": "none",
+        "allow_data_collection": "yes",
+        "provider": "zed",
     },
     "project_panel": {},
     "outline_panel": {},
@@ -28,6 +29,7 @@
     "icon_theme": "JetBrains New UI Icons (Dark)",
     "cli_default_open_behavior": "existing_window",
     "agent": {
+        "default_profile": "ask",
         "dock": "right",
         "sidebar_side": "right",
         "favorite_models": [],
