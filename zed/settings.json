@@ -112,7 +112,7 @@
         "Min Dark (Blurred)": {
             "editor.document_highlight.bracket_background": "#B392F185",
             "text.accent": "#ffffff",
-            "background": "#1A1A1Ac0", // "background": "#1A1A1Ac0" se quiser blur no dock da direita
+            "background": "#1A1A1A", // "background": "#1A1A1Ac0" se quiser blur no dock da direita
             "status_bar.background": "#1A1A1Ac0",
             "title_bar.background": "#1A1A1Ac0",
             "title_bar.inactive_background": "#1A1A1Ac0",
