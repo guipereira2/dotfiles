@@ -79,6 +79,10 @@
         "bindings": {
             "ctrl-y": "editor::AcceptEditPrediction",
             "tab": "editor::Tab",
+            "alt-l": null,
+            "alt-tab": null,
+            "alt-j": null,
+            "alt-k": null,
         },
     },
     {
