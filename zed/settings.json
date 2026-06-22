@@ -19,6 +19,7 @@
         "min-theme": true,
     },
     "edit_predictions": {
+        "mode": "subtle",
         "allow_data_collection": "yes",
         "provider": "zed",
     },

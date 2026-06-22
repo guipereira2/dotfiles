@@ -62,7 +62,6 @@
             "ctrl-a r": "buffer_search::DeployReplace",
             "ctrl-a m": "editor::AddSelectionBelow",
             "ctrl-a s": "pane::SplitRight",
-            "ctrl-a d": "editor::ShowEditPrediction",
             "ctrl-s": "workspace::Save",
             "ctrl-d": "editor::ShowCompletions",
             "ctrl-;": null,
@@ -78,7 +77,8 @@
     {
         "context": "Editor && edit_prediction",
         "bindings": {
-            "tab": "editor::AcceptEditPrediction",
+            "ctrl-y": "editor::AcceptEditPrediction",
+            "tab": "editor::Tab",
         },
     },
 ]
