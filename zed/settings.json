@@ -114,16 +114,16 @@
             "editor.document_highlight.bracket_background": "#B392F185",
             "text.accent": "#ffffff",
             "background": "#1A1A1A", // "background": "#1A1A1Ac0" se quiser blur no dock da direita
-            "status_bar.background": "#1A1A1Ac0",
-            "title_bar.background": "#1A1A1Ac0",
-            "title_bar.inactive_background": "#1A1A1Ac0",
+            "status_bar.background": "#1A1A1A80",
+            "title_bar.background": "#1A1A1A80",
+            "title_bar.inactive_background": "#1A1A1A80",
             "toolbar.background": "#1A1A1A", // "background": "#1A1A1Ac0" se quiser blur no editor principal
             "tab_bar.background": "#1A1A1A", // "background": "#1A1A1Ac0" se quiser blur no editor principal
-            "tab.inactive_background": "#1A1A1Ac0",
-            "tab.active_background": "#1A1A1Ac0",
+            "tab.inactive_background": "#1A1A1A80",
+            "tab.active_background": "#1A1A1A80",
             "editor.background": "#1A1A1A", // "background": "#1A1A1Ac0" se quiser blur no editor principal
             "editor.gutter.background": "#1A1A1A", //"background": "#1A1A1Ac0" se quiser blur no editor principal
-            "terminal.background": "#1A1A1Ac0",
+            "terminal.background": "#1A1A1A80",
             "element.selected": "#2A2A2A",
             "ghost_element.selected": "#2A2A2A",
             "panel.focused_border": "#2A2A2A",
