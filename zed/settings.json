@@ -12,11 +12,11 @@
         "tabular-data-preview": "on",
     },
     "auto_install_extensions": {
-        "csharp": true,
         "dockerfile": true,
         "html": true,
         "jetbrains-new-ui-icons": true,
         "min-theme": true,
+        "toml": true,
     },
     "edit_predictions": {
         "mode": "subtle",
@@ -70,6 +70,7 @@
     "agent_servers": {
         "claude-acp": {
             "default_config_options": {
+                "fast": true,
                 "model": "haiku",
             },
             "type": "registry",
