@@ -14,7 +14,6 @@ return {
         "pyright",
         "yaml-language-server",
         "gopls",
-        "roslyn-language-server",
 
         -- install formatters
         "stylua",
