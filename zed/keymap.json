@@ -33,7 +33,9 @@
     },
     {
         "context": "ProjectPanel",
-        "bindings": {},
+        "bindings": {
+            "ctrl-a d": "project_panel::NewDirectory",
+        },
     },
     {
         "context": "BufferSearchBar",
