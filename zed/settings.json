@@ -16,6 +16,7 @@
         "html": true,
         "jetbrains-new-ui-icons": true,
         "min-theme": true,
+        "terraform": true,
         "toml": true,
     },
     "edit_predictions": {
