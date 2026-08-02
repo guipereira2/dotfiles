@@ -20,6 +20,7 @@
             "ctrl-a ]": "workspace::ActivatePaneRight",
             "ctrl-a t": "terminal_panel::ToggleFocus",
             "ctrl-a n": "pane::DeploySearch",
+            "ctrl-a d": "pane::DeploySearch",
             "ctrl-a l": "project_symbols::Toggle",
         },
     },
@@ -42,6 +43,30 @@
         "bindings": {
             "ctrl-n": "search::SelectNextMatch",
             "ctrl-p": "search::SelectPreviousMatch",
+        },
+    },
+    {
+        "context": "ProjectSearchBar",
+        "bindings": {
+            "ctrl-a r": "search::ToggleReplace",
+        },
+    },
+    {
+        "context": "ProjectSearchView",
+        "bindings": {
+            "ctrl-a r": "search::ToggleReplace",
+        },
+    },
+    {
+        "context": "ProjectSearchView > Editor && VimControl",
+        "bindings": {
+            "enter": "editor::OpenExcerpts",
+        },
+    },
+    {
+        "context": "ProjectSearchBar && in_replace > Editor",
+        "bindings": {
+            "ctrl-enter": "search::ReplaceAll",
         },
     },
     {
