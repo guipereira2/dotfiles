@@ -102,22 +102,4 @@
             "ctrl-enter": null,
         },
     },
-    {
-        "context": "Editor && edit_prediction && !showing_completions",
-        "bindings": {
-            "ctrl-y": "editor::AcceptEditPrediction",
-            "tab": "editor::Tab",
-            "alt-l": null,
-            "alt-tab": null,
-            "alt-j": null,
-            "alt-k": null,
-        },
-    },
-    {
-        "context": "Editor && edit_prediction && showing_completions",
-        "bindings": {
-            "alt-y": "editor::AcceptEditPrediction",
-            "alt-l": null,
-        },
-    },
 ]

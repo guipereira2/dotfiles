@@ -7,6 +7,7 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+    "diff_view_style": "split",
     "feature_flags": {
         "notebooks": "on",
         "tabular-data-preview": "on",
@@ -20,9 +21,7 @@
         "toml": true,
     },
     "edit_predictions": {
-        "mode": "subtle",
-        "allow_data_collection": "yes",
-        "provider": "zed",
+        "provider": "none",
     },
     "project_panel": {},
     "outline_panel": {},
@@ -31,6 +30,12 @@
     "icon_theme": "JetBrains New UI Icons (Dark)",
     "cli_default_open_behavior": "existing_window",
     "agent": {
+        "default_model": {
+            "provider": "zed.dev",
+            "model": "claude-opus-5",
+            "enable_thinking": true,
+            "effort": "high"
+        },
         "default_profile": "ask",
         "dock": "right",
         "sidebar_side": "right",
@@ -64,7 +69,6 @@
     "buffer_line_height": "comfortable",
     "cursor_blink": true,
     "buffer_font_family": "JetBrainsMono Nerd Font",
-    "show_edit_predictions": true,
     "soft_wrap": "editor_width",
     "hard_tabs": false,
     "tab_size": 4,
