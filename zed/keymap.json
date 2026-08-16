@@ -21,6 +21,7 @@
             "ctrl-a t": "terminal_panel::ToggleFocus",
             "ctrl-a n": "pane::DeploySearch",
             "ctrl-a d": "pane::DeploySearch",
+            "ctrl-a i": "workspace::ToggleZoom",
             "ctrl-a l": "project_symbols::Toggle",
         },
     },
