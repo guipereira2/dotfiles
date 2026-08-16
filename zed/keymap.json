@@ -102,4 +102,10 @@
             "ctrl-enter": null,
         },
     },
+    {
+        "context": "Editor && extension == md",
+        "bindings": {
+            "ctrl-a v": "markdown::OpenPreview",
+        },
+    },
 ]
