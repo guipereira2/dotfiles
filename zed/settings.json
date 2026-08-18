@@ -53,6 +53,7 @@
         "font_family": "JetBrainsMono Nerd Font",
         "button": true,
         "dock": "right",
+        "copy_on_select": true,
     },
     "preview_tabs": {
         "enabled": false,
@@ -138,6 +139,7 @@
             "editor.background": "#1A1A1A",
             "editor.gutter.background": "#1A1A1A",
             "terminal.background": "#1A1A1A",
+            "terminal.foreground": "#d4d4d4",
             "element.selected": "#2A2A2A",
             "ghost_element.selected": "#2A2A2A",
             "panel.focused_border": "#2A2A2A",
