@@ -6,8 +6,6 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
-unset zle_bracketed_paste
-
 eval "$(starship init zsh)"
 
 alias ll='ls -alF'

@@ -74,6 +74,14 @@
     "soft_wrap": "editor_width",
     "hard_tabs": false,
     "tab_size": 4,
+    "languages": {
+        "Python": {
+            "format_on_save": "on",
+        },
+        "Go": {
+            "format_on_save": "on",
+        },
+    },
     "agent_servers": {
         "claude-acp": {
             "favorite_config_option_values": {

@@ -1,6 +1,6 @@
 "$schema" = 'https://starship.rs/config-schema.json'
 
-format = '$directory$git_branch$character'
+format = '$directory$git_branch${custom.git_dirty}${custom.git_unpushed}$character'
 
 [directory]
 style = "bold #dddddd"
@@ -9,6 +9,20 @@ style = "bold #dddddd"
 format = '[$symbol $branch]($style) '
 style = "bold #888888"
 symbol = ""
+
+[custom.git_dirty]
+require_repo = true
+when = 'test -n "$(git status --porcelain 2>/dev/null)"'
+command = "echo ●"
+style = "#888888"
+format = '[$output]($style) '
+
+[custom.git_unpushed]
+require_repo = true
+when = 'test -z "$(git status --porcelain 2>/dev/null)" && test "$(git rev-list --count @{u}..HEAD 2>/dev/null || echo 0)" -gt 0'
+command = "echo ○"
+style = "#888888"
+format = '[$output]($style) '
 
 [character]
 success_symbol = "[❯](bold #dddddd)"
