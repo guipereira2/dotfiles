@@ -136,7 +136,7 @@
         "Min Dark (Blurred)": {
             "editor.document_highlight.bracket_background": "#B392F185",
             "text.accent": "#ffffff",
-            "background": "#1A1A1A",
+            "background": "#1A1A1Ad9",
             "status_bar.background": "#1A1A1Ad9",
             "title_bar.background": "#1A1A1Ad9",
             "title_bar.inactive_background": "#1A1A1Ad9",
