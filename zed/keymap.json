@@ -19,7 +19,7 @@
             "ctrl-a [": "workspace::ActivatePaneLeft",
             "ctrl-a ]": "workspace::ActivatePaneRight",
             "ctrl-a t": "terminal_panel::ToggleFocus",
-            "ctrl-a n": "pane::DeploySearch",
+            "ctrl-a n": "file_finder::Toggle",
             "ctrl-a d": "pane::DeploySearch",
             "ctrl-a i": "workspace::ToggleZoom",
             "ctrl-a l": "project_symbols::Toggle",
@@ -108,6 +108,13 @@
         "context": "Editor && extension == md",
         "bindings": {
             "ctrl-a v": "markdown::OpenPreview",
+        },
+    },
+    {
+        "context": "FileFinder || (FileFinder > Picker > Editor)",
+        "bindings": {
+            "ctrl-a p": "picker::TogglePreview",
+            "ctrl-a a": "picker::ToggleActionsMenu",
         },
     },
 ]
