@@ -118,4 +118,10 @@
             "ctrl-a a": "picker::ToggleActionsMenu",
         },
     },
+    {
+        "context": "(Picker && with_preview) > Editor",
+        "bindings": {
+            "ctrl-a p": "picker::TogglePreview",
+        },
+    },
 ]
