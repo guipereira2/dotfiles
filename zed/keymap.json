@@ -22,7 +22,7 @@
             "ctrl-a n": "file_finder::Toggle",
             "ctrl-a d": "pane::DeploySearch",
             "ctrl-a i": "workspace::ToggleZoom",
-            "ctrl-a l": "project_symbols::Toggle",
+            "ctrl-a l": "go_to_line::Toggle",
         },
     },
     {
