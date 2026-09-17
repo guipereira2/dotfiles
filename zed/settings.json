@@ -69,7 +69,13 @@
     },
     "buffer_line_height": "comfortable",
     "cursor_blink": true,
+    "cursor_animation": {
+        "enabled": true,
+    },
     "buffer_font_family": "JetBrainsMono Nerd Font",
+    "markdown_preview": {
+        "font_family": "JetBrainsMono Nerd Font",
+    },
     "soft_wrap": "editor_width",
     "hard_tabs": false,
     "tab_size": 4,
@@ -98,6 +104,7 @@
         },
     },
     "base_keymap": "VSCode",
+    "ui_font_family": "JetBrainsMono Nerd Font",
     "ui_font_size": 16,
     "buffer_font_size": 15,
     "theme": {
