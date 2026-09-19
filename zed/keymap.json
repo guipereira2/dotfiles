@@ -23,6 +23,7 @@
             "ctrl-a d": "pane::DeploySearch",
             "ctrl-a i": "workspace::ToggleZoom",
             "ctrl-a l": "go_to_line::Toggle",
+            "ctrl-a k": "command_palette::Toggle",
         },
     },
     {
@@ -93,7 +94,6 @@
             "ctrl-a s": "pane::SplitRight",
             "ctrl-a c": ["editor::ToggleComments", { "advance_downwards": false }],
             "ctrl-a z": "editor::ReloadFile",
-            "ctrl-a k": "assistant::InlineAssist",
             "ctrl-s": "workspace::Save",
             "ctrl-d": "editor::ShowCompletions",
             "ctrl-;": null,

@@ -28,10 +28,6 @@
     "icon_theme": "JetBrains New UI Icons (Dark)",
     "cli_default_open_behavior": "existing_window",
     "agent": {
-        "inline_assistant_model": {
-               "provider": "amazon-bedrock",
-               "model": "kimi-k2-5"
-        },
         "default_profile": "ask",
         "dock": "right",
         "sidebar_side": "right",
