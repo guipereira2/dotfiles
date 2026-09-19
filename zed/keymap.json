@@ -37,6 +37,7 @@
         "context": "ProjectPanel",
         "bindings": {
             "ctrl-a d": "project_panel::NewDirectory",
+            "ctrl-a f": "project_panel::NewFile",
         },
     },
     {
