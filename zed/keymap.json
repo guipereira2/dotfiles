@@ -151,10 +151,4 @@
             "d d": "notebook::DeleteCell",
         },
     },
-    {
-        "context": "(NotebookEditor && notebook_mode == command) > Editor",
-        "bindings": {
-            "d d": "notebook::DeleteCell",
-        },
-    },
 ]
