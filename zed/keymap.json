@@ -125,4 +125,36 @@
             "ctrl-a p": "picker::TogglePreview",
         },
     },
+    {
+        "context": "NotebookEditor",
+        "bindings": {
+            "ctrl-a n c": "notebook::AddCodeBlock",
+            "ctrl-a n m": "notebook::AddMarkdownBlock",
+            "ctrl-a c o": "notebook::ClearOutputs",
+            "ctrl-a r k": "notebook::RestartKernel",
+            "ctrl-enter": "notebook::Run",
+        },
+    },
+    {
+        "context": "NotebookEditor > Editor",
+        "bindings": {
+            "ctrl-a n c": "notebook::AddCodeBlock",
+            "ctrl-a n m": "notebook::AddMarkdownBlock",
+            "ctrl-a c o": "notebook::ClearOutputs",
+            "ctrl-a r k": "notebook::RestartKernel",
+            "ctrl-enter": "notebook::Run",
+        },
+    },
+    {
+        "context": "NotebookEditor && notebook_mode == command",
+        "bindings": {
+            "d d": "notebook::DeleteCell",
+        },
+    },
+    {
+        "context": "(NotebookEditor && notebook_mode == command) > Editor",
+        "bindings": {
+            "d d": "notebook::DeleteCell",
+        },
+    },
 ]
