@@ -113,6 +113,12 @@
         },
     },
     {
+        "context": "Editor && (extension == csv || extension == tsv || extension == ssv || extension == psv)",
+        "bindings": {
+            "ctrl-a v": "tabular_data::OpenPreview",
+        },
+    },
+    {
         "context": "FileFinder || (FileFinder > Picker > Editor)",
         "bindings": {
             "ctrl-a p": "picker::TogglePreview",

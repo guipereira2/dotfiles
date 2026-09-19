@@ -10,10 +10,6 @@
     "proxy": "",
     "show_edit_predictions": false,
     "diff_view_style": "split",
-    "feature_flags": {
-        "notebooks": "on",
-        "tabular-data-preview": "on",
-    },
     "auto_install_extensions": {
         "dockerfile": true,
         "html": true,
