@@ -102,16 +102,18 @@
         },
     },
     {
-        "context": "Editor && edit_prediction",
+        "context": "Editor && edit_prediction && !showing_completions",
         "bindings": {
-            "alt-p": "editor::AcceptNextWordEditPrediction",
-            "alt-l": "editor::AcceptNextLineEditPrediction",
+            "ctrl-w": "editor::AcceptNextWordEditPrediction",
+            "ctrl-l": "editor::AcceptNextLineEditPrediction",
         },
     },
     {
         "context": "Editor && edit_prediction && showing_completions",
         "bindings": {
             "alt-y": "editor::AcceptEditPrediction",
+            "alt-w": "editor::AcceptNextWordEditPrediction",
+            "alt-l": "editor::AcceptNextLineEditPrediction",
         },
     },
     {
