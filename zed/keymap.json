@@ -102,6 +102,12 @@
         },
     },
     {
+        "context": "Editor && mode == full",
+        "bindings": {
+            "ctrl-enter": "editor::GoToDefinition",
+        },
+    },
+    {
         "context": "Editor && edit_prediction && !showing_completions",
         "bindings": {
             "ctrl-w": "editor::AcceptNextWordEditPrediction",
