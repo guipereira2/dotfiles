@@ -125,13 +125,13 @@
     {
         "context": "Editor && extension == md",
         "bindings": {
-            "ctrl-a v": "markdown::OpenPreview",
+            "ctrl-a v": "markdown::OpenPreviewToTheSide",
         },
     },
     {
         "context": "Editor && (extension == csv || extension == tsv || extension == ssv || extension == psv)",
         "bindings": {
-            "ctrl-a v": "tabular_data::OpenPreview",
+            "ctrl-a v": "tabular_data::OpenPreviewToTheSide",
         },
     },
     {
