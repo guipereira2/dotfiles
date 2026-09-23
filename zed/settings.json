@@ -7,6 +7,7 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+    "on_new_window": "launchpad",
     "proxy": "",
     "diff_view_style": "split",
     "auto_install_extensions": {
@@ -50,7 +51,7 @@
     },
     "vim_mode": true,
     "terminal": {
-        "font_size": 14.0,
+        "font_size": 16.0,
         "font_family": "JetBrainsMono Nerd Font",
         "button": true,
         "dock": "right",
@@ -108,7 +109,7 @@
     "base_keymap": "VSCode",
     "ui_font_family": "JetBrainsMono Nerd Font",
     "ui_font_size": 16,
-    "buffer_font_size": 15,
+    "buffer_font_size": 16,
     "theme": {
         "mode": "system",
         "light": "One Light",
@@ -166,6 +167,15 @@
                     "selection": "#ffffff30",
                 },
             ],
+            "syntax": {
+                "title": { "color": "#B392F1", "font_weight": 700 },
+                "emphasis": { "color": "#D1D1D1", "font_style": "italic" },
+                "emphasis.strong": { "color": "#F8F8F8", "font_weight": 700 },
+                "link_text": { "color": "#79B8FF" },
+                "link_uri": { "color": "#FFAB70" },
+                "punctuation.markup": { "color": "#FA7584" },
+                "punctuation.list_marker": { "color": "#FA7584" },
+            },
         },
     },
 }
