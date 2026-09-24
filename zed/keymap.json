@@ -24,6 +24,7 @@
             "ctrl-a i": "workspace::ToggleZoom",
             "ctrl-a l": "go_to_line::Toggle",
             "ctrl-a q": "command_palette::Toggle",
+            "ctrl-a u": "project_symbols::Toggle",
         },
     },
     {
