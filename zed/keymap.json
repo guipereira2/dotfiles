@@ -34,14 +34,6 @@
         },
     },
     {
-        "context": "Editor && !menu",
-        "bindings": {
-            "ctrl-b": "workspace::ToggleRightDock",
-            "ctrl-shift-c": "editor::Copy",
-            "ctrl-v": "editor::Paste",
-        },
-    },
-    {
         "context": "ProjectPanel",
         "bindings": {
             "ctrl-a d": "project_panel::NewDirectory",
@@ -93,6 +85,9 @@
     {
         "context": "Editor",
         "bindings": {
+            "ctrl-b": "workspace::ToggleRightDock",
+            "ctrl-shift-c": "editor::Copy",
+            "ctrl-v": "editor::Paste",
             "ctrl-a": null,
             "ctrl-a w": "outline::Toggle",
             "ctrl-a h": "editor::ToggleInlayHints",
@@ -105,6 +100,8 @@
             "ctrl-a =": "editor::ToggleSelectedDiffHunks",
             "ctrl-a /": "call_hierarchy::ShowIncomingCalls",
             "ctrl-a k": "assistant::InlineAssist",
+            "ctrl-a shift-y": "git::ToggleStaged",
+            "ctrl-a shift-r": "git::Restore",
             "ctrl-s": "workspace::Save",
             "ctrl-d": "editor::ShowCompletions",
             "ctrl-;": null,
@@ -115,13 +112,6 @@
         "context": "Editor && mode == full",
         "bindings": {
             "ctrl-enter": "editor::GoToDefinition",
-        },
-    },
-    {
-        "context": "Editor",
-        "bindings": {
-            "ctrl-a shift-y": "git::ToggleStaged",
-            "ctrl-a shift-r": "git::Restore",
         },
     },
     {
@@ -207,7 +197,7 @@
         },
     },
     {
-        "context": "VimControl && !menu",
+        "context": "VimControl",
         "bindings": {
             "ctrl-q q": "vim::ToggleVisualLine",
         },
