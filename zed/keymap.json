@@ -30,7 +30,7 @@
             "ctrl-a shift-p": "workspace::CopyRelativePath",
             "ctrl-a shift-h": "git::FileHistory",
             "ctrl-a shift-b": "git::Branch",
-            "ctrl-a shift-d": "git::BranchDiff",
+            "ctrl-a shift-d": "git::DiffBranch",
         },
     },
     {
