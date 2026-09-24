@@ -25,6 +25,12 @@
             "ctrl-a l": "go_to_line::Toggle",
             "ctrl-a q": "command_palette::Toggle",
             "ctrl-a u": "project_symbols::Toggle",
+            "ctrl-a e": "pane::RevealInProjectPanel",
+            "ctrl-a shift-l": "lsp_command_selector::Toggle",
+            "ctrl-a shift-p": "workspace::CopyRelativePath",
+            "ctrl-a shift-h": "git::FileHistory",
+            "ctrl-a shift-b": "git::Branch",
+            "ctrl-a shift-d": "git::BranchDiff",
         },
     },
     {
@@ -95,6 +101,8 @@
             "ctrl-a s": "pane::SplitRight",
             "ctrl-a c": ["editor::ToggleComments", { "advance_downwards": false }],
             "ctrl-a z": "editor::ReloadFile",
+            "ctrl-a =": "editor::ToggleSelectedDiffHunks",
+            "ctrl-a /": "call_hierarchy::ShowIncomingCalls",
             "ctrl-a k": "assistant::InlineAssist",
             "ctrl-s": "workspace::Save",
             "ctrl-d": "editor::ShowCompletions",
@@ -106,6 +114,21 @@
         "context": "Editor && mode == full",
         "bindings": {
             "ctrl-enter": "editor::GoToDefinition",
+        },
+    },
+    {
+        "context": "Editor && !agent_diff",
+        "bindings": {
+            "ctrl-a shift-y": "git::ToggleStaged",
+            "ctrl-a shift-r": "git::Restore",
+        },
+    },
+    {
+        "context": "Editor && jupyter",
+        "bindings": {
+            "ctrl-a y": "repl::Run",
+            "ctrl-a shift-c": "repl::ClearCurrentOutput",
+            "ctrl-a shift-o": "repl::ClearOutputs",
         },
     },
     {
