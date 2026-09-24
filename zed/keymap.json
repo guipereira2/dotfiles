@@ -175,4 +175,10 @@
             "d d": "notebook::DeleteCell",
         },
     },
+    {
+        "context": "AgentPanel",
+        "bindings": {
+            "ctrl-a ,": "agent::RenameSelectedThread",
+        },
+    },
 ]
