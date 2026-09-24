@@ -117,7 +117,7 @@
         },
     },
     {
-        "context": "Editor && !agent_diff",
+        "context": "Editor",
         "bindings": {
             "ctrl-a shift-y": "git::ToggleStaged",
             "ctrl-a shift-r": "git::Restore",
