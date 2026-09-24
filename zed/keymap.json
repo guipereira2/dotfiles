@@ -93,6 +93,7 @@
     {
         "context": "Editor",
         "bindings": {
+            "ctrl-a": null,
             "ctrl-a w": "outline::Toggle",
             "ctrl-a h": "editor::ToggleInlayHints",
             "ctrl-a f": "buffer_search::Deploy",
@@ -203,6 +204,12 @@
         "context": "AgentPanel",
         "bindings": {
             "ctrl-a ,": "agent::RenameSelectedThread",
+        },
+    },
+    {
+        "context": "VimControl && !menu",
+        "bindings": {
+            "ctrl-q q": "vim::ToggleVisualLine",
         },
     },
 ]
