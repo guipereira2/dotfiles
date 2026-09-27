@@ -20,6 +20,8 @@
             "ctrl-a ]": "workspace::ActivatePaneRight",
             "ctrl-a {": "pane::SwapItemLeft",
             "ctrl-a }": "pane::SwapItemRight",
+            "ctrl-a <": ["workspace::MoveItemToPaneInDirection", { "direction": "left" }],
+            "ctrl-a >": ["workspace::MoveItemToPaneInDirection", { "direction": "right" }],
             "ctrl-a t": "terminal_panel::ToggleFocus",
             "ctrl-a n": "file_finder::Toggle",
             "ctrl-a d": "pane::DeploySearch",
@@ -63,6 +65,12 @@
     },
     {
         "context": "ProjectSearchView > Editor && VimControl",
+        "bindings": {
+            "enter": "editor::OpenExcerpts",
+        },
+    },
+    {
+        "context": "GitDiff > Editor && VimControl",
         "bindings": {
             "enter": "editor::OpenExcerpts",
         },
