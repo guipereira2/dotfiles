@@ -18,6 +18,8 @@
             "ctrl-a p": "diagnostics::Deploy",
             "ctrl-a [": "workspace::ActivatePaneLeft",
             "ctrl-a ]": "workspace::ActivatePaneRight",
+            "ctrl-a {": "pane::SwapItemLeft",
+            "ctrl-a }": "pane::SwapItemRight",
             "ctrl-a t": "terminal_panel::ToggleFocus",
             "ctrl-a n": "file_finder::Toggle",
             "ctrl-a d": "pane::DeploySearch",
