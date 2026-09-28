@@ -99,6 +99,7 @@
             "ctrl-shift-c": "editor::Copy",
             "ctrl-v": "editor::Paste",
             "ctrl-a": null,
+            "ctrl-a shift-a": "editor::SelectAll",
             "ctrl-a w": "outline::Toggle",
             "ctrl-a h": "editor::ToggleInlayHints",
             "ctrl-a f": "buffer_search::Deploy",
