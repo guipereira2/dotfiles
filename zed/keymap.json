@@ -213,4 +213,10 @@
             "ctrl-q q": "vim::ToggleVisualLine",
         },
     },
+    {
+        "context": "Terminal",
+        "bindings": {
+            "ctrl-a r": "terminal::RenameTerminal",
+        },
+    },
 ]
