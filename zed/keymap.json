@@ -94,6 +94,13 @@
         },
     },
     {
+        "context": "TabSwitcher",
+        "bindings": {
+            "ctrl-backspace": null,
+            "ctrl-a ctrl-backspace": "tab_switcher::CloseSelectedItem",
+        },
+    },
+    {
         "context": "Editor",
         "bindings": {
             "ctrl-b": "workspace::ToggleRightDock",
