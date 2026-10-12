@@ -80,7 +80,11 @@
         "font_family": "JetBrainsMono Nerd Font",
     },
     "soft_wrap": "editor_width",
-    "show_whitespaces": "boundary",
+    "show_whitespaces": "all",
+    "whitespace_map": {
+        "space": "·",
+        "tab": "→",
+    },
     "mouse_wheel_zoom": true,
     "hard_tabs": false,
     "tab_size": 4,
