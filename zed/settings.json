@@ -81,6 +81,7 @@
     },
     "soft_wrap": "editor_width",
     "show_whitespaces": "boundary",
+    "mouse_wheel_zoom": true,
     "hard_tabs": false,
     "tab_size": 4,
     "languages": {
