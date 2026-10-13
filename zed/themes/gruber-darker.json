@@ -185,7 +185,7 @@
           }
         },
         "background.appearance": "blurred",
-        "editor.document_highlight.bracket_background": "#B392F185",
+        "editor.document_highlight.bracket_background": "#565f73",
         "title_bar.inactive_background": "#181818d9",
         "panel.focused_border": "#2A2A2A"
       }
