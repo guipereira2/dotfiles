@@ -224,6 +224,12 @@
         },
     },
     {
+        "context": "vim_mode == normal",
+        "bindings": {
+            "shift-y": "vim::YankToEndOfLine",
+        },
+    },
+    {
         "context": "Terminal",
         "bindings": {
             "ctrl-a r": "terminal::RenameTerminal",
