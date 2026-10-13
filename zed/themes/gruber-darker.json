@@ -21,7 +21,7 @@
         "tab_bar.background": "#181818",
         "tab.inactive_background": "#181818",
         "tab.active_background": "#181818",
-        "search.match_background": "#FFAB7064",
+        "search.match_background": "#565f73",
         "panel.background": "#00000000",
         "panel.overlay_background": "#181818",
         "scrollbar.track.background": "#00000000",
