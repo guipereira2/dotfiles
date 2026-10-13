@@ -3,27 +3,27 @@
 format = '$directory$git_branch${custom.git_dirty}${custom.git_unpushed}$character'
 
 [directory]
-style = "bold #dddddd"
+style = "bold #e4e4ef"
 
 [git_branch]
 format = '[$symbol $branch]($style) '
-style = "bold #888888"
+style = "bold green"
 symbol = ""
 
 [custom.git_dirty]
 require_repo = true
 when = 'test -n "$(git status --porcelain 2>/dev/null)"'
 command = "echo ●"
-style = "#888888"
+style = "yellow"
 format = '[$output]($style) '
 
 [custom.git_unpushed]
 require_repo = true
 when = 'test -z "$(git status --porcelain 2>/dev/null)" && test "$(git rev-list --count @{u}..HEAD 2>/dev/null || echo 0)" -gt 0'
 command = "echo ○"
-style = "#888888"
+style = "yellow"
 format = '[$output]($style) '
 
 [character]
-success_symbol = "[❯](bold #dddddd)"
-error_symbol = "[❯](bold #cc6666)"
+success_symbol = "[❯](bold green)"
+error_symbol = "[❯](bold red)"
