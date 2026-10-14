@@ -215,6 +215,7 @@
         "context": "AgentPanel",
         "bindings": {
             "ctrl-a ,": "agent::RenameSelectedThread",
+            "ctrl-a shift-t": "agent::NewTerminalThread",
         },
     },
     {
@@ -232,7 +233,19 @@
     {
         "context": "Terminal",
         "bindings": {
-            "ctrl-a r": "terminal::RenameTerminal",
+            "ctrl-a ,": "terminal::RenameTerminal",
+        },
+    },
+    {
+        "context": "AgentPanel > Terminal",
+        "bindings": {
+            "ctrl-a ,": "agent::RenameSelectedThread",
+        },
+    },
+    {
+        "context": "ThreadsSidebar",
+        "bindings": {
+            "ctrl-a ,": "agent::RenameSelectedThread",
         },
     },
     {
