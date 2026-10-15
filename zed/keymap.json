@@ -234,12 +234,14 @@
         "context": "Terminal",
         "bindings": {
             "ctrl-a ,": "terminal::RenameTerminal",
+            "ctrl-a shift-t": "workspace::NewTerminal",
         },
     },
     {
         "context": "AgentPanel > Terminal",
         "bindings": {
             "ctrl-a ,": "agent::RenameSelectedThread",
+            "ctrl-a shift-t": "agent::NewTerminalThread",
         },
     },
     {

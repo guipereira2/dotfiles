@@ -79,6 +79,7 @@
     "markdown_preview": {
         "font_family": "JetBrainsMono Nerd Font",
     },
+    "mermaid_font_family": "JetBrainsMono Nerd Font",
     "soft_wrap": "editor_width",
     "show_whitespaces": "all",
     "mouse_wheel_zoom": true,
