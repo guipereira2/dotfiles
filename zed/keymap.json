@@ -248,6 +248,7 @@
         "context": "ThreadsSidebar",
         "bindings": {
             "ctrl-a ,": "agent::RenameSelectedThread",
+            "ctrl-a shift-t": "agent::NewTerminalThread",
         },
     },
     {
