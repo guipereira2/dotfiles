@@ -141,6 +141,7 @@
             "ctrl-a y": "repl::Run",
             "ctrl-a shift-c": "repl::ClearCurrentOutput",
             "ctrl-a shift-o": "repl::ClearOutputs",
+            "ctrl-a shift-x": "repl::Restart",
         },
     },
     {
@@ -189,8 +190,8 @@
             "ctrl-a n c": "notebook::AddCodeBlock",
             "ctrl-a n m": "notebook::AddMarkdownBlock",
             "ctrl-a c o": "notebook::ClearOutputs",
-            "ctrl-a r k": "notebook::RestartKernel",
-            "ctrl-a r a": "notebook::RunAll",
+            "ctrl-a shift-r k": "notebook::RestartKernel",
+            "ctrl-a shift-r a": "notebook::RunAll",
             "ctrl-enter": "notebook::Run",
         },
     },
@@ -200,8 +201,8 @@
             "ctrl-a n c": "notebook::AddCodeBlock",
             "ctrl-a n m": "notebook::AddMarkdownBlock",
             "ctrl-a c o": "notebook::ClearOutputs",
-            "ctrl-a r k": "notebook::RestartKernel",
-            "ctrl-a r a": "notebook::RunAll",
+            "ctrl-a shift-r k": "notebook::RestartKernel",
+            "ctrl-a shift-r a": "notebook::RunAll",
             "ctrl-enter": "notebook::Run",
         },
     },
@@ -251,9 +252,4 @@
             "ctrl-a shift-t": "agent::NewTerminalThread",
         },
     },
-    {
-        "bindings": {
-            "ctrl-a shift-c": "repl::Interrupt"
-        }
-    }
 ]
