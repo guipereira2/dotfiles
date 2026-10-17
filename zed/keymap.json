@@ -138,7 +138,7 @@
     {
         "context": "Editor && jupyter",
         "bindings": {
-            "ctrl-a y": "repl::Run",
+            "ctrl-a y": "repl::RunInPlace",
             "ctrl-a shift-c": "repl::ClearCurrentOutput",
             "ctrl-a shift-o": "repl::ClearOutputs",
             "ctrl-a shift-x": "repl::Restart",
