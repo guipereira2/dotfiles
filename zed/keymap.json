@@ -189,7 +189,7 @@
         "bindings": {
             "ctrl-a n c": "notebook::AddCodeBlock",
             "ctrl-a n m": "notebook::AddMarkdownBlock",
-            "ctrl-a c o": "notebook::ClearOutputs",
+            "ctrl-a shift-o": "notebook::ClearOutputs",
             "ctrl-a shift-r k": "notebook::RestartKernel",
             "ctrl-a shift-r a": "notebook::RunAll",
             "ctrl-enter": "notebook::Run",
@@ -200,7 +200,7 @@
         "bindings": {
             "ctrl-a n c": "notebook::AddCodeBlock",
             "ctrl-a n m": "notebook::AddMarkdownBlock",
-            "ctrl-a c o": "notebook::ClearOutputs",
+            "ctrl-a shift-o": "notebook::ClearOutputs",
             "ctrl-a shift-r k": "notebook::RestartKernel",
             "ctrl-a shift-r a": "notebook::RunAll",
             "ctrl-enter": "notebook::Run",
