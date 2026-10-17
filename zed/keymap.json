@@ -77,6 +77,12 @@
         },
     },
     {
+        "context": "Editor && multibuffer && vim_mode == normal",
+        "bindings": {
+            "enter": "editor::OpenExcerpts",
+        },
+    },
+    {
         "context": "ProjectSearchBar && in_replace > Editor",
         "bindings": {
             "ctrl-enter": "search::ReplaceAll",
