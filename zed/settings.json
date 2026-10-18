@@ -81,6 +81,7 @@
     },
     "mermaid_font_family": "JetBrainsMono Nerd Font",
     "soft_wrap": "editor_width",
+    "relative_line_numbers": "enabled",
     "show_whitespaces": "all",
     "mouse_wheel_zoom": true,
     "hard_tabs": false,
