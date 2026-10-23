@@ -35,6 +35,7 @@
             "ctrl-a shift-b": "git::Branch",
             "ctrl-a shift-d": "git::DiffBranch",
             "ctrl-a shift-z": ["zed::ResetBufferFontSize", { "persist": false }],
+            "ctrl-a shift-s": "repl::Sessions",
         },
     },
     {
