@@ -18,6 +18,8 @@
             "ctrl-a p": "diagnostics::Deploy",
             "ctrl-a [": "workspace::ActivatePaneLeft",
             "ctrl-a ]": "workspace::ActivatePaneRight",
+            "ctrl-a up": "workspace::ActivatePaneUp",
+            "ctrl-a down": "workspace::ActivatePaneDown",
             "ctrl-a {": "pane::SwapItemLeft",
             "ctrl-a }": "pane::SwapItemRight",
             "ctrl-a <": ["workspace::MoveItemToPaneInDirection", { "direction": "left" }],
