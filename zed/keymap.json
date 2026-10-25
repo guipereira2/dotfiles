@@ -243,6 +243,8 @@
         "context": "Terminal",
         "bindings": {
             "ctrl-a ,": "terminal::RenameTerminal",
+            "ctrl-a s": "pane::SplitRight",
+            "ctrl-a h": "pane::SplitDown",
             "ctrl-a shift-t": "workspace::NewTerminal",
         },
     },
