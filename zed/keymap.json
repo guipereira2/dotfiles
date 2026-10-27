@@ -45,7 +45,7 @@
         "bindings": {
             "ctrl-a d": "project_panel::NewDirectory",
             "ctrl-a f": "project_panel::NewFile",
-            "ctrl-a r": "project_panel::Rename",
+            "ctrl-a ,": "project_panel::Rename",
         },
     },
     {
