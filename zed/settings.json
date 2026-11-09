@@ -57,6 +57,7 @@
         "button": true,
         "dock": "right",
         "copy_on_select": true,
+        "cursor_shape":"bar",
         "blinking":"on",
     },
     "preview_tabs": {
