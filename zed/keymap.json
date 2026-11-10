@@ -199,6 +199,7 @@
         "bindings": {
             "ctrl-a ,": "agent::RenameSelectedThread",
             "ctrl-a shift-t": "agent::NewTerminalThread",
+            "ctrl-a shift-n": "agent::NewThread",
         },
     },
     {
@@ -227,6 +228,7 @@
         "bindings": {
             "ctrl-a ,": "agent::RenameSelectedThread",
             "ctrl-a shift-t": "agent::NewTerminalThread",
+            "ctrl-a shift-n": "agent::NewThread",
         },
     },
     {
@@ -234,6 +236,7 @@
         "bindings": {
             "ctrl-a ,": "agent::RenameSelectedThread",
             "ctrl-a shift-t": "agent::NewTerminalThread",
+            "ctrl-a shift-n": "agent::NewThread",
         },
     },
 ]
