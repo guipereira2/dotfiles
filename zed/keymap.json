@@ -195,34 +195,6 @@
         },
     },
     {
-        "context": "NotebookEditor",
-        "bindings": {
-            "ctrl-a n c": "notebook::AddCodeBlock",
-            "ctrl-a n m": "notebook::AddMarkdownBlock",
-            "ctrl-a shift-o": "notebook::ClearOutputs",
-            "ctrl-a shift-r k": "notebook::RestartKernel",
-            "ctrl-a shift-r a": "notebook::RunAll",
-            "ctrl-enter": "notebook::Run",
-        },
-    },
-    {
-        "context": "NotebookEditor > Editor",
-        "bindings": {
-            "ctrl-a n c": "notebook::AddCodeBlock",
-            "ctrl-a n m": "notebook::AddMarkdownBlock",
-            "ctrl-a shift-o": "notebook::ClearOutputs",
-            "ctrl-a shift-r k": "notebook::RestartKernel",
-            "ctrl-a shift-r a": "notebook::RunAll",
-            "ctrl-enter": "notebook::Run",
-        },
-    },
-    {
-        "context": "NotebookEditor && notebook_mode == command",
-        "bindings": {
-            "d d": "notebook::DeleteCell",
-        },
-    },
-    {
         "context": "AgentPanel",
         "bindings": {
             "ctrl-a ,": "agent::RenameSelectedThread",
