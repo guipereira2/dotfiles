@@ -239,4 +239,48 @@
             "ctrl-a shift-n": "agent::NewThread",
         },
     },
+    {
+        "context": "AcpThread",
+        "bindings": {
+            "ctrl-a =": "agent::OpenAgentDiff",
+            "ctrl-a shift-y": "agent::AllowOnce",
+            "ctrl-a shift-q": "agent::AllowAlways",
+            "ctrl-a shift-r": "agent::RejectOnce",
+        },
+    },
+    {
+        "context": "AcpThread > Editor",
+        "bindings": {
+            "ctrl-a =": "agent::OpenAgentDiff",
+            "ctrl-a enter": "agent::KeepAll",
+            "ctrl-a backspace": "agent::RejectAll",
+            "ctrl-a shift-u": "agent::UndoLastReject",
+            "ctrl-a shift-y": "agent::AllowOnce",
+            "ctrl-a shift-q": "agent::AllowAlways",
+            "ctrl-a shift-r": "agent::RejectOnce",
+        },
+    },
+    {
+        "context": "Editor && editor_agent_diff",
+        "bindings": {
+            "ctrl-a enter": "agent::KeepAll",
+            "ctrl-a backspace": "agent::RejectAll",
+            "ctrl-a shift-y": "agent::Keep",
+            "ctrl-a shift-r": "agent::Reject",
+        },
+    },
+    {
+        "context": "AgentDiff",
+        "bindings": {
+            "ctrl-a enter": "agent::KeepAll",
+            "ctrl-a backspace": "agent::RejectAll",
+        },
+    },
+    {
+        "context": "AgentDiff > Editor",
+        "bindings": {
+            "ctrl-a shift-y": "agent::Keep",
+            "ctrl-a shift-r": "agent::Reject",
+        },
+    },
 ]
