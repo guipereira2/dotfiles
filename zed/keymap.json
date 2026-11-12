@@ -38,6 +38,7 @@
             "ctrl-a shift-d": "git::DiffBranch",
             "ctrl-a shift-z": ["zed::ResetBufferFontSize", { "persist": false }],
             "ctrl-a shift-s": "repl::Sessions",
+            "ctrl-a shift-m": ["projects::OpenRemote", { "from_existing_connection": false }],
         },
     },
     {
