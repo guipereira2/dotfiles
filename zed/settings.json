@@ -40,6 +40,7 @@
             "effort": "medium",
         },
         "default_profile": "ask",
+        "auto_generate_thread_titles": false,
         "dock": "right",
         "sidebar_side": "right",
         "favorite_models": [],
