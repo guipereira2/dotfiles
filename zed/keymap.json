@@ -39,8 +39,6 @@
             "ctrl-a shift-z": ["zed::ResetBufferFontSize", { "persist": false }],
             "ctrl-a shift-s": "repl::Sessions",
             "ctrl-a shift-m": ["projects::OpenRemote", { "from_existing_connection": false }],
-            "ctrl-a shift-g": "git::Push",
-            "ctrl-a shift-f": "git::Pull",
         },
     },
     {
@@ -109,6 +107,8 @@
         "context": "GitPanel",
         "bindings": {
             "ctrl-a shift-a": "git::StageAll",
+            "ctrl-a shift-g": "git::Push",
+            "ctrl-a shift-f": "git::Pull",
         },
     },
     {
