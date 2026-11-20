@@ -81,6 +81,7 @@
     "buffer_font_family": "JetBrainsMono Nerd Font",
     "markdown_preview": {
         "font_family": "JetBrainsMono Nerd Font",
+        "font_size": 16,
     },
     "mermaid_font_family": "JetBrainsMono Nerd Font",
     "soft_wrap": "editor_width",
@@ -115,7 +116,8 @@
     },
     "base_keymap": "VSCode",
     "ui_font_family": "JetBrainsMono Nerd Font",
-    "ui_font_size": 16,
+    "ui_font_size": 18,
+    "git_commit_buffer_font_size": 16,
     "buffer_font_size": 16,
     "agent_ui_font_family": "JetBrainsMono Nerd Font",
     "agent_ui_font_size": 18,
