@@ -107,7 +107,7 @@
             },
             "default_config_options": {
                 "effort": "high",
-                "mode": "default",
+                "mode": "auto",
                 "fast": false,
                 "model": "opus",
             },
