@@ -131,7 +131,7 @@
             "ctrl-a f": "buffer_search::Deploy",
             "ctrl-a r": "buffer_search::DeployReplace",
             "ctrl-a m": "editor::AddSelectionBelow",
-            "ctrl-a s": "pane::SplitRight",
+            "ctrl-a s": "pane::SplitAndMoveRight",
             "ctrl-a c": ["editor::ToggleComments", { "advance_downwards": false }],
             "ctrl-a z": "editor::ReloadFile",
             "ctrl-a =": "editor::ToggleSelectedDiffHunks",
